@@ -81,7 +81,7 @@ jobs:
 
             cd /home/ec2-user
 
-            rm -rf demo-app
+            rm -rf demo
 
             echo "Cloning repo..."
             GIT_ASKPASS=true git clone https://github.com/gourishettylikith3-web/demo.git
